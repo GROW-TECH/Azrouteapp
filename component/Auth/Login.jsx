@@ -14,14 +14,13 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-white text-center px-4">
+    <div className="flex flex-col items-center bg-white text-center px-4">
       {/* Logo & Branding */}
-      <div className="flex flex-col items-center space-y-2 mb-8">
-        <Image
+      <div className="flex flex-col items-center space-y-2 mb-8" style={{display:'flex'}}>
+        <img
   src="/image/logo.png"
   alt="Azroute Logo"
-  width={100}
-  height={100}
+  style={{width:'250px',height:'100px'}}
 />
        
       </div>
